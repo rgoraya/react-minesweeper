@@ -12,10 +12,10 @@ https://rgoraya.github.io/react-minesweeper/
         Header --- GameBoard --- Instructions
                        |
                        |
-  GameControls ---- Squares ------------- Result 
-       |
-       |
-     Timer   
+    GameControls ---- Squares ------------- Result 
+         |
+         |
+       Timer   
 
 ## Built with 
 - [React](https://reactjs.org/)

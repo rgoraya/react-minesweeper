@@ -1,0 +1,15 @@
+{
+  "main.css": "/react-minesweeper/static/css/main.806dd3fe.chunk.css",
+  "main.js": "/react-minesweeper/static/js/main.dc0ed7dd.chunk.js",
+  "main.js.map": "/react-minesweeper/static/js/main.dc0ed7dd.chunk.js.map",
+  "static/js/1.b1de401a.chunk.js": "/react-minesweeper/static/js/1.b1de401a.chunk.js",
+  "static/js/1.b1de401a.chunk.js.map": "/react-minesweeper/static/js/1.b1de401a.chunk.js.map",
+  "runtime~main.js": "/react-minesweeper/static/js/runtime~main.1c80af3c.js",
+  "runtime~main.js.map": "/react-minesweeper/static/js/runtime~main.1c80af3c.js.map",
+  "static/css/main.806dd3fe.chunk.css.map": "/react-minesweeper/static/css/main.806dd3fe.chunk.css.map",
+  "static/media/won.gif": "/react-minesweeper/static/media/won.0d5de60a.gif",
+  "static/media/lost.gif": "/react-minesweeper/static/media/lost.ecb5925e.gif",
+  "index.html": "/react-minesweeper/index.html",
+  "precache-manifest.5d53021f32727fabf530e00edc570e60.js": "/react-minesweeper/precache-manifest.5d53021f32727fabf530e00edc570e60.js",
+  "service-worker.js": "/react-minesweeper/service-worker.js"
+}

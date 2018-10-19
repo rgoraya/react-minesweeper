@@ -1,28 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header'
+import GameBoard from './components/game_board'
+import Instructions from './components/instructions'
 
 class App extends Component {
-  render() {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      boardSize: 9,
+      numberOfMines: 10,
+      difficulty: "low"
+    }
+  }
+
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App container">
+        <Header />
+        <GameBoard 
+          boardSize = {this.state.boardSize}
+          numberOfMines = {this.state.numberOfMines}
+          difficulty = {this.state.difficulty}
+          gameInitialized = {this.state.gameInitialized}
+          onGameStart = {() => this.onGameStart()}
+          onGameStop = {() => this.onGameStop()}
+        />
+        <Instructions />
       </div>
     );
   }
+
+
 }
 
 export default App;
